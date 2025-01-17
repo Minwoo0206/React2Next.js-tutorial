@@ -1,0 +1,42 @@
+p.error{
+    color: red;
+}
+p.success{
+    color: green;
+}
+p.success.feedback{
+    border: 1px dashed green;
+}
+div#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+div .error{
+    color: purple;
+}
+
+a[href*="https://songbase.life"]{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a[href$="3407"]{
+    color: white;
+    background: red;
+}
+
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 10px;
+    font-weight: bold;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
